@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="flex flex-col items-center w-full py-16">
     <h2 class="flex items-center mb-16">
-      <img src="../../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+      <img src="../../assets/img/index/onestep/onestep_line.png" alt="+one step" class="h-10">
       <span class="text-2xl sm:text-3xl font-bold ml-4">
         とは
       </span>

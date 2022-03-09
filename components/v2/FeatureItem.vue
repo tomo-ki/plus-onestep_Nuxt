@@ -1,7 +1,7 @@
 <template>
   <section id="feature" class="flex flex-col items-center w-full py-16">
     <h2 class="flex items-center mb-14 sm:mb-16">
-      <img src="../../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+      <img src="../../assets/img/index/onestep/onestep_line.png" alt="+one step" class="h-10">
       <span class="text-2xl sm:text-3xl font-bold ml-4">
         でできること
       </span>
@@ -21,7 +21,7 @@
           </span>
         </h3>
         <div class="flex flex-col items-center sm:flex-row sm:justify-between">
-          <div class="flex flex-col justify-between w-full sm:w-7/12 h-32">
+          <div class="flex flex-col justify-between w-full sm:w-7/12 sm:h-32">
             <p class="text-base mb-6 leading-7">
               {{ feature.text1 }}
             </p>

@@ -37,8 +37,8 @@
 
 <script>
 import ButtonL from '../CommonParts/ButtonL.vue'
-import FirstviewBg from "@/assets/img/index/firstview/firstview_bg.png"
-import FirstviewSP from "@/assets/img/index/firstview/firstview_SP.svg"
+import FirstviewBg from "@/assets/img/index/firstview/firstviewbg_PC.png"
+import FirstviewSP from "@/assets/img/index/firstview/firstviewbg_SP.png"
 
 export default {
   name: 'Top',

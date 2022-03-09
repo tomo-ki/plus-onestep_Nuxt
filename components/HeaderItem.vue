@@ -3,14 +3,14 @@
     <div class="hidden sm:flex items-center justify-between px-16 fixed bg-white bg-opacity-70 w-full z-20 h-16">
       <div class="">
         <!-- <router-link to="#top">
-          <img src="../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+          <img src="../assets/img/index/onestep/onestep_line.png" alt="+one step">
         </router-link> -->
         <button @click="scrollTop()" class="cursor-pointer">
-          <img src="../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+          <img src="../assets/img/index/onestep/onestep_line.png" alt="+one step" class="h-10">
         </button>
       </div>
       <div class="">
-        <ul class="flex">
+        <ul class="flex text-base">
           <li><button @click="onClick" v-scroll-to="'#about'">+one stepとは</button></li>
           <li class="ml-10"><button @click="onClick" v-scroll-to="'#merit'">導入メリット</button></li>
           <li class="ml-10"><button @click="onClick" v-scroll-to="'#flow'">活用方法</button></li>
@@ -23,7 +23,7 @@
       <div  v-if="valMenu == false" class="flex justify-center items-center h-16 bg-white bg-opacity-70">
         <div class="w-full sp-head">
           <button @click="scrollTop()" class="inline-block w-full flex items-center justify-center">
-            <img class="h-10" src="../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+            <img class="h-10" src="../assets/img/index/onestep/onestep_line.png" alt="+one step">
           </button>
           <div @click="menuToggle()" class="hbg-wrap">
             <div class="hbg">
@@ -37,7 +37,7 @@
       <div  v-if="valMenu == true" class="flex justify-center items-center h-16 bg-white">
         <div class="w-full sp-head">
           <button @click="scrollTop()" class="inline-block w-full flex items-center justify-center">
-            <img class="h-10" src="../assets/img/index/onestep/onestep_line.svg" alt="+one step">
+            <img class="h-10" src="../assets/img/index/onestep/onestep_line.png" alt="+one step">
           </button>
           <div @click="menuToggle()" class="hbg-wrap">
             <div class="hbg-cross">

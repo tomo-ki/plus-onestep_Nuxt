@@ -17,7 +17,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-          <p class="text-base sm:text-2xl">
+          <p class="text-base sm:text-2xl pr-3">
             デモ画面はありますか？
           </p>
           <img src="../../assets/img/index/faq/faq_v2_down.svg" alt="Q" width="15px">
@@ -33,7 +33,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-            <p class="text-base sm:text-2xl">
+            <p class="text-base sm:text-2xl pr-3">
               デモ画面はありますか？
             </p>
             <img src="../../assets/img/index/faq/faq_v2_up.svg" alt="" width="15px">
@@ -43,7 +43,7 @@
           <div class="w-2/12 sm:w-1/12 flex flex-col items-center mt-3">
             <img src="../../assets/img/index/faq/faq_v2_A.png" alt="A" class="w-4 sm:w-6" width="">
           </div>
-          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-4 pr-4 leading-8">
+          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-2 sm:py-4 pr-4 leading-8">
             <p>
               無料で利用できるデモ画面を準備させていただきます。利用期間は1週間になります。
             </p>
@@ -60,7 +60,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-          <p class="text-base sm:text-2xl">
+          <p class="text-base sm:text-2xl pr-3">
             契約期間中でもプラン変更は出来ますか？
           </p>
           <img src="../../assets/img/index/faq/faq_v2_down.svg" alt="" width="15px">
@@ -76,7 +76,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-            <p class="text-base sm:text-2xl">
+            <p class="text-base sm:text-2xl pr-3">
               契約期間中でもプラン変更は出来ますか？
             </p>
             <img src="../../assets/img/index/faq/faq_v2_up.svg" alt="" width="15px">
@@ -86,7 +86,7 @@
           <div class="w-2/12 sm:w-1/12 flex flex-col items-center mt-3">
             <img src="../../assets/img/index/faq/faq_v2_A.png" alt="A" class="w-4 sm:w-6" width="">
           </div>
-          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-4 pr-4 leading-8">
+          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-2 sm:py-4 pr-4 leading-8">
             <p>
               MAプランから定着支援プランへの変更は出来ます。ただし、MA+定着支援プランからMAプランへの変更は出来ません。
             </p>
@@ -103,7 +103,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-          <p class="text-base sm:text-2xl">
+          <p class="text-base sm:text-2xl pr-3">
             +onestepの動作環境をおしえてください
           </p>
           <img src="../../assets/img/index/faq/faq_v2_down.svg" alt="" width="15px">
@@ -119,7 +119,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-            <p class="text-base sm:text-2xl">
+            <p class="text-base sm:text-2xl pr-3">
               +onestepの動作環境をおしえてください
             </p>
             <img src="../../assets/img/index/faq/faq_v2_up.svg" alt="" width="15px">
@@ -129,7 +129,7 @@
           <div class="w-2/12 sm:w-1/12 flex flex-col items-center mt-3">
             <img src="../../assets/img/index/faq/faq_v2_A.png" alt="A" class="w-4 sm:w-6" width="">
           </div>
-          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-4 pr-4 leading-8">
+          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-2 sm:py-4 pr-4 leading-8">
             <p>
               1. Windows の場合
               <br>
@@ -165,7 +165,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-          <p class="text-base sm:text-2xl">
+          <p class="text-base sm:text-2xl pr-3">
             LINE以外にメッセージ配信出来ますか？
           </p>
           <img src="../../assets/img/index/faq/faq_v2_down.svg" alt="" width="15px">
@@ -181,7 +181,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-            <p class="text-base sm:text-2xl">
+            <p class="text-base sm:text-2xl pr-3">
               LINE以外にメッセージ配信出来ますか？
             </p>
             <img src="../../assets/img/index/faq/faq_v2_up.svg" alt="" width="15px">
@@ -191,7 +191,7 @@
           <div class="w-2/12 sm:w-1/12 flex flex-col items-center mt-3">
             <img src="../../assets/img/index/faq/faq_v2_A.png" alt="A" class="w-4 sm:w-6" width="">
           </div>
-          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-4 pr-4 leading-8">
+          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-2 sm:py-4 pr-4 leading-8">
             <p>
               メール配信も可能です。
             </p>
@@ -208,7 +208,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-          <p class="text-base sm:text-2xl">
+          <p class="text-base sm:text-2xl pr-3">
             セキュリティは大丈夫ですか？
           </p>
           <img src="../../assets/img/index/faq/faq_v2_down.svg" alt="" width="15px">
@@ -224,7 +224,7 @@
           <img src="../../assets/img/index/faq/faq_v2_Q.png" alt="Q" class="w-4 sm:w-6">
         </div>
         <div class="flex items-center justify-between w-10/12 sm:w-11/12 pr-3">
-            <p class="text-base sm:text-2xl">
+            <p class="text-base sm:text-2xl pr-3">
               セキュリティは大丈夫ですか？
             </p>
             <img src="../../assets/img/index/faq/faq_v2_up.svg" alt="" width="15px">
@@ -234,7 +234,7 @@
           <div class="w-2/12 sm:w-1/12 flex flex-col items-center mt-3">
             <img src="../../assets/img/index/faq/faq_v2_A.png" alt="A" class="w-4 sm:w-6" width="">
           </div>
-          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-4 pr-4 leading-8">
+          <div class="w-10/12 sm:w-11/12 text-base sm:text-lg py-2 sm:py-4 pr-4 leading-8">
             <p>
               負荷に強いAWSをサーバーに採用し、IPアクセス制限や二段階認証を行うことで強固なセキュリティ対策を行なっております。
             </p>
