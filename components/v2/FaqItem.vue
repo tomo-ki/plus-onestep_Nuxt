@@ -1,6 +1,6 @@
 <template>
   <section id="faq" class="flex flex-col items-center my-10 w-full">
-    <div class="flex justify-center py w-10/12">
+    <div class="flex justify-center">
       <img src="../../assets/img/index/faq/faq_v2_img1.svg" alt="">
       <h2 class="text-2xl sm:text-3xl font-bold py-16 w-7/12">
         よくあるご質問 Q&A

@@ -7,9 +7,9 @@
       </span>
     </h2>
     <div class="w-full">
-      <div class="flex flex-col sm:flex-row-reverse mb-20">
+      <div class="flex flex-col sm:flex-row-reverse mb-20" v-scroll="handleScroll">
         <div class="sm:w-7/12">
-          <img src="../../assets/img/index/about/about_v2_img1.png" alt="" class="w-full">
+          <img src="../../assets/img/index/about/about_v2_img1.png" alt="+one stepとは1" class="w-full">
         </div>
         <div
           class="py-20 sm:py-0 sm:pl-24 flex flex-col items-center sm:items-start sm:w-5/12"
@@ -31,9 +31,9 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col sm:flex-row sm:pr-20">
+      <div class="flex flex-col sm:flex-row sm:pr-20" v-scroll="handleScroll">
         <div class="flex justify-start sm:w-7/12">
-          <img src="../../assets/img/index/about/about_v2_img2.png" alt="about2" class="w-full inline-block">
+          <img src="../../assets/img/index/about/about_v2_img2.png" alt="+one stepとは2" class="w-full inline-block">
         </div>
         <div
           class="py-20 flex flex-col items-center sm:w-5/12"
@@ -61,6 +61,18 @@ export default {
   data(){
     return {
     }
-  }
+  },
+  methods: {
+    handleScroll: function(evt, el) {
+      console.log(window.scrollY);
+      if (window.scrollY > 50) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, -10px, 0)"
+        );
+      }
+      return window.scrollY > 100;
+    },
+  },
 }
 </script>

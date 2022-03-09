@@ -4,7 +4,7 @@
     <h2 class="text-2xl sm:text-3xl font-bold text-white">料金プラン</h2>
   </div>
   <p class="mt-10 w-9/10 sm:text-center">+one stepを利用するには、公式LINEアカウントの契約が必要です。</p>
-  <div class="flex flex-col items-center bg-white w-9/12 py-10 mt-10 shadow-lg" style="border:solid 5px #9CD8D4;">
+  <div class="flex flex-col items-center bg-white w-11/12 sm:w-9/12 py-10 mt-10 shadow-lg" style="border:solid 5px #9CD8D4;">
     <div class="mb-10">
       <img src="../../assets/img/index/onestep/onestep_line.png" alt="+one step" class="h-10">
     </div>
@@ -217,7 +217,7 @@
   </div>
   <!--  -->
   <!-- LINE -->
-  <div class="flex flex-col items-center bg-white w-9/12 py-10 shadow-lg" style="border:solid 5px #C0F1A4;">
+  <div class="flex flex-col items-center bg-white w-11/12 sm:w-9/12 py-10 shadow-lg" style="border:solid 5px #C0F1A4;">
     <div class="mb-10">
       <img src="../../assets/img/index/price/LINEofficial.png" alt="LINE公式アカウント" class="h-8">
     </div>
