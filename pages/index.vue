@@ -5,22 +5,26 @@
       <TopItem/>
       <AboutItem/>
       <MeritItem/>
+      <FlowItem/>
       <FeatureItem/>
       <ChargeItem/>
-      <Banner1 class="sm:hidden block"/>
+      <FaqItem/>
+      <Banner class="sm:hidden block"/>
       <FooterItem/>
     </main>
   </div>
 </template>
 
 <script>
-import HeaderItem from '../components/HeaderItem.vue'
-import TopItem from '../components/TopItem.vue'
-import AboutItem from '@/components/AboutItem.vue'
-import MeritItem from '@/components/MeritItem.vue'
-import FeatureItem from '@/components/FeatureItem.vue'
-import ChargeItem from '@/components/ChargeItem.vue'
-import Banner1 from '@/components/Banner1.vue'
+import HeaderItem from '@/components/HeaderItem.vue'
+import TopItem from '~/components/v2/TopItem.vue'
+import AboutItem from '~/components/v2/AboutItem.vue'
+import MeritItem from '~/components/v1/MeritItem.vue'
+import FlowItem from '@/components/v2/FlowItem.vue'
+import FeatureItem from '@/components/v2/FeatureItem.vue'
+import ChargeItem from '~/components/v2/ChargeItem.vue'
+import FaqItem from '@/components/v2/FaqItem.vue'
+import Banner from '~/components/v1/Banner1.vue'
 import FooterItem from '@/components/FooterItem.vue'
 
 
@@ -31,9 +35,11 @@ export default {
     TopItem,
     AboutItem,
     MeritItem,
+    FlowItem,
     FeatureItem,
     ChargeItem,
-    Banner1,
+    FaqItem,
+    Banner,
     FooterItem,
   },
   data(){
