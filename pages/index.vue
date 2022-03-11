@@ -16,35 +16,30 @@
 </template>
 
 <script>
-import HeaderItem from '@/components/HeaderItem.vue'
-import TopItem from '~/components/v2/TopItem.vue'
-import AboutItem from '~/components/v2/AboutItem.vue'
-import MeritItem from '~/components/v1/MeritItem.vue'
-import FlowItem from '@/components/v2/FlowItem.vue'
-import FeatureItem from '@/components/v2/FeatureItem.vue'
-import ChargeItem from '~/components/v2/PriceItem2.vue'
-import FaqItem from '@/components/v2/FaqItem.vue'
-import Banner from '~/components/v1/Banner1.vue'
-import FooterItem from '@/components/FooterItem.vue'
-
-
 export default {
   name: 'Home',
   components: {
-    HeaderItem,
-    TopItem,
-    AboutItem,
-    MeritItem,
-    FlowItem,
-    FeatureItem,
-    ChargeItem,
-    FaqItem,
-    Banner,
-    FooterItem,
+    HeaderItem:()=>import('@/components/HeaderItem.vue'),
+    TopItem:()=>import('@/components/v2/TopItem.vue'),
+    AboutItem:()=>import('@/components/v2/AboutItem.vue'),
+    MeritItem:()=>import('@/components/v2/MeritItem.vue'),
+    FlowItem:()=>import('@/components/v2/FlowItem.vue'),
+    FeatureItem:()=>import('@/components/v2/FeatureItem.vue'),
+    ChargeItem:()=>import('@/components/v2/PriceItem2.vue'),
+    FaqItem:()=>import('@/components/v2/FaqItem.vue'),
+    Banner:()=>import('@/components/v1/Banner1.vue'),
+    FooterItem:()=>import('@/components/FooterItem.vue'),
   },
   data(){
     return {
     }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$nuxt.$loading.start()
+
+      setTimeout(() => this.$nuxt.$loading.finish(), 500)
+    })
   }
 }
 </script>

@@ -7,8 +7,8 @@
       </span>
     </h2>
     <div class="w-full">
-      <div class="flex flex-col sm:flex-row-reverse mb-20" v-scroll="handleScroll">
-        <div class="sm:w-7/12">
+      <div class="flex flex-col sm:flex-row-reverse sm:mt-16 mb-20 anim1" v-scroll="handleScroll1">
+        <div class="sm:w-7/12" style="opacity:1;">
           <img src="../../assets/img/index/about/about_v2_img1.png" alt="+one stepとは1" class="w-full">
         </div>
         <div
@@ -31,7 +31,7 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-col sm:flex-row sm:pr-20" v-scroll="handleScroll">
+      <div class="flex flex-col sm:flex-row sm:pr-20 sm:mb-16 anim2" v-scroll="handleScroll2">
         <div class="flex justify-start sm:w-7/12">
           <img src="../../assets/img/index/about/about_v2_img2.png" alt="+one stepとは2" class="w-full inline-block">
         </div>
@@ -63,16 +63,40 @@ export default {
     }
   },
   methods: {
-    handleScroll: function(evt, el) {
+    handleScroll1: function(evt, el) {
       console.log(window.scrollY);
-      if (window.scrollY > 50) {
+      if (window.scrollY > 200) {
         el.setAttribute(
           "style",
-          "opacity: 1; transform: translate3d(0, -10px, 0)"
+          "opacity: 1; transform: translate3d(0, 0, 0);"
         );
       }
-      return window.scrollY > 100;
+      // return window.scrollY > 300;
     },
+    handleScroll2: function(evt, el) {
+      console.log(window.scrollY);
+      if (window.scrollY > 650) {
+        el.setAttribute(
+          "style",
+          "opacity: 1; transform: translate3d(0, 0, 0);"
+        );
+      }
+      // return window.scrollY > 900;
+    }
   },
 }
 </script>
+<style scoped>
+.anim1{
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  /* transition: 1.0s all cubic-bezier(.47, 0, .745, .715); */
+}
+.anim2{
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: 1.5s all cubic-bezier(0.39, 0.575, 0.565, 1);
+  /* transition: 1.0s all cubic-bezier(.47, 0, .745, .715); */
+}
+</style>

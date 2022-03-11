@@ -1,6 +1,6 @@
 <template>
-  <section id="flow" class="flex flex-col items-center mb-10">
-    <h2 class="text-3xl font-bold py-16">
+  <section id="flow" class="flex flex-col items-center py-20">
+    <h2 class="text-3xl font-bold pb-16">
       ご利用の流れ
     </h2>
     <div class="w-9/10 sm:w-9/12">

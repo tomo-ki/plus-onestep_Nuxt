@@ -48,6 +48,7 @@ button::before {
 button:hover::before {
   transform-origin: left top;
   transform: scale(1, 1);
+  transition: transform .3s;
 }
 .span1,
 .span2{
