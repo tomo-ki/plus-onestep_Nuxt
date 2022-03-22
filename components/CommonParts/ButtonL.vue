@@ -1,8 +1,7 @@
 <template>
   <button
     @click="onClick"
-    class="text-white pl-8 pr-16 py-6 leading-none text-2xl rounded-lg shadow-lg"
-    style="background: linear-gradient(to left, #078C7A, #0D81B0);"
+    class="pl-8 pr-16 py-6 text-2xl leading-none rounded-lg shadow-lg"
   >
     <span class="span1"></span>
     <span class="span2"></span>
@@ -29,6 +28,18 @@ export default {
 button{
   position: relative;
   display: inline-block;
+  background: linear-gradient(to left, #078C7A, #0D81B0);
+  color: white;
+  padding-right: 4rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  line-height: 1;
+  border-radius: 0.5rem;
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 button::before {
   position: absolute;
